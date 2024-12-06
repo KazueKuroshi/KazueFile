@@ -5,7 +5,7 @@
 
   function fetchPosts() {
     const label = 'Series';
-    const url = `https://yuna-novel.blogspot.com/feeds/posts/default/-/${label}?alt=json-in-script&callback=handleResponse`;
+    const url = `/feeds/posts/default/-/${label}?alt=json-in-script&callback=handleResponse`;
     const script = document.createElement('script');
     script.src = url;
     document.body.appendChild(script);
