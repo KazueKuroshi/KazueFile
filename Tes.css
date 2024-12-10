@@ -1,0 +1,68 @@
+<Variable name="meta.keywords" description="Keywords Meta Tag content" type="string" default="" value="Light Novel, Web Novel, Japanese, Korean, Chinese, E-NovelsHub"/>
+[!] Keywords Meta Tag content (comma-separated)
+[!] @type {String}
+[!] If Blank: Doesn't add keywords other than page name
+[!] Message: Separate multiple keyword with comma
+
+<Variable name="meta.icon" description="Favicon URL" type="string" default="" value="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRPvYxPFTnjFVAPXCMCxX6hrSO325GiKhzCERRn5lKIof2JCmRnPiOF-JcZHYyjlWLiLIpqYyE82BmIZkSrf2eUdW4Fh_lO-uB8MmI8hTmy5hz428EZp2FHaxEgdZa_hnufQ8iVwr4kmKDjOF65pGl9eLfSDU-oGU3MR1E8OKpi0J9W8z4mkuzbzgegis/s1600/LogoNRH.webp"/>
+[!] Favicon URL
+[!] @type {String}
+[!] Recommended image ratio: 1:1
+[!] If Blank: It will use Favicon URL from Blogger Blog Settings
+[!] Warning: Dont't add invalid URL
+
+<Variable name="meta.image" description="Image Meta Tag URL" type="string" default="" value="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRPvYxPFTnjFVAPXCMCxX6hrSO325GiKhzCERRn5lKIof2JCmRnPiOF-JcZHYyjlWLiLIpqYyE82BmIZkSrf2eUdW4Fh_lO-uB8MmI8hTmy5hz428EZp2FHaxEgdZa_hnufQ8iVwr4kmKDjOF65pGl9eLfSDU-oGU3MR1E8OKpi0J9W8z4mkuzbzgegis/s1600/LogoNRH.webp"/>
+[!] Image Meta Tag content
+[!] @type {String}
+[!] Recommended image ratio: 16:9
+[!] If Blank: Doesn't add meta tag if any not available
+[!] Message: If the view is single item, it will use thumbnail url of item if available
+[!] Warning: Don't add invalid URL
+
+<Variable name="opengraph.image" description="Open Graph Image URL" type="string" default="" value="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRPvYxPFTnjFVAPXCMCxX6hrSO325GiKhzCERRn5lKIof2JCmRnPiOF-JcZHYyjlWLiLIpqYyE82BmIZkSrf2eUdW4Fh_lO-uB8MmI8hTmy5hz428EZp2FHaxEgdZa_hnufQ8iVwr4kmKDjOF65pGl9eLfSDU-oGU3MR1E8OKpi0J9W8z4mkuzbzgegis/s1600/LogoNRH.webp"/>
+[!] Open Graph Image URL
+[!] @type {String}
+[!] Recommended image ratio: 16:9
+[!] If Blank: Doesn't add meta tag if any not available
+[!] Message: If the view is single item, it will use thumbnail url of item if available
+[!] Warning: Don't add invalid URL
+
+<Variable name="twitter.image" description="Twitter Card Image URL" type="string" default="" value="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRPvYxPFTnjFVAPXCMCxX6hrSO325GiKhzCERRn5lKIof2JCmRnPiOF-JcZHYyjlWLiLIpqYyE82BmIZkSrf2eUdW4Fh_lO-uB8MmI8hTmy5hz428EZp2FHaxEgdZa_hnufQ8iVwr4kmKDjOF65pGl9eLfSDU-oGU3MR1E8OKpi0J9W8z4mkuzbzgegis/s1600/LogoNRH.webp"/>
+[!] Twitter Card Image URL
+[!] @type {String}
+[!] Recommended image ratio: 16:9
+[!] If Blank: Doesn't add meta tag if any not available
+[!] Message: If the view is single item, it will use thumbnail url of item if available
+[!] Warning: Don't add invalid URL
+
+<Variable name="metadata.organizationLogo" description="Metadata Organization Logo" type="string" default="" value="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRPvYxPFTnjFVAPXCMCxX6hrSO325GiKhzCERRn5lKIof2JCmRnPiOF-JcZHYyjlWLiLIpqYyE82BmIZkSrf2eUdW4Fh_lO-uB8MmI8hTmy5hz428EZp2FHaxEgdZa_hnufQ8iVwr4kmKDjOF65pGl9eLfSDU-oGU3MR1E8OKpi0J9W8z4mkuzbzgegis/s1600/LogoNRH.webp"/>
+[!] Metadata Organization Logo
+[!] @type {String}
+[!] Recommended image ratio: 1:1
+[!] Warning: Don't add invalid URL
+
+<Variable name="metadata.defaultThumbnail" description="Metadata Default Thumbnail" type="string" default="" value="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRPvYxPFTnjFVAPXCMCxX6hrSO325GiKhzCERRn5lKIof2JCmRnPiOF-JcZHYyjlWLiLIpqYyE82BmIZkSrf2eUdW4Fh_lO-uB8MmI8hTmy5hz428EZp2FHaxEgdZa_hnufQ8iVwr4kmKDjOF65pGl9eLfSDU-oGU3MR1E8OKpi0J9W8z4mkuzbzgegis/s1600/LogoNRH.webp"/>
+[!] Metadata Default Thumbnail
+[!] @type {String}
+[!] Recommended image ratio: 16:9
+[!] Warning: Don't add invalid URL
+
+<Variable name="adsense.clientId" description="Adsense Client Id" type="string" default="" value="7711943971890488"/>
+[!] Adsense Client Id
+[!] @type {String}
+[!] If Blank: It will be automated if Blog is connected with Adsense Account
+[!] Warning: Only digits are allowed
+
+<Variable name="adsense.hostId" description="Adsense Host Id" type="string" default="" value=""/>
+[!] Adsense Host Id
+[!] @type {String}
+[!] If Blank: It will use default Host ID
+[!] Warning: Only digits are allowed
+
+<Variable name="analytics.accountNumber" description="Google Analytics 4 Tracking Code" type="string" default="" value=""/>
+[!] Google Analytics 4 Tracking Code
+[!] @type {String}
+[!] If Blank: Tracking Code is added from Blogger Blog Settings
+[!] Example: G-0000000H00
+
+<Variable name="disqus.shortname" description="Disqus shortname" type="string" default="" value="e-novelshub"/>
