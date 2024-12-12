@@ -1,4 +1,3 @@
-
   let allEntries = [];
   let isImageMode = true; // Default mode is image mode
 
